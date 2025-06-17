@@ -112,5 +112,6 @@ Brindes e sorteios para estimular o consumo
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-📅 Conclusão
+📅 Conclusão:
+
 A aplicação do K-Means permitiu segmentar eficientemente os clientes, revelando perfis distintos e oportunidades claras de ações direcionadas.
