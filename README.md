@@ -28,6 +28,8 @@ Annual Income (k$): Renda anual em milhões de dólares
 
 Spending Score (1-100): Score de gastos com base no comportamento do cliente
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 📝 Etapas do Projeto
 
 1. Análise e Limpeza dos Dados
@@ -38,6 +40,8 @@ Análise univariada (histogramas e distribuições)
 
 Análise bivariada para identificar relações entre variáveis
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 2. Tratamento da Variável Categórica
 
 A variável Gender foi convertida usando One-Hot Encoding
@@ -46,13 +50,19 @@ Criada a variável Genero_Male, onde 1 representa masculino e 0 feminino
 
 A coluna original foi removida após a conversão
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 3. Visualização
 
 Uso do pairplot para explorar relações entre variáveis numéricas
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 4. Padronização dos Dados
 
 Foi utilizada a padronização via StandardScaler para normalizar as variáveis
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 5. Aplicação do Algoritmo K-Means
 
@@ -61,6 +71,8 @@ KMeans aplicado com k=5
 Atribuição de labels aos clientes conforme seus clusters
 
 Visualização por matriz de dispersão
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 6. Visualização da Matriz de Dispersão e Interpretação dos Clusters
 
@@ -92,14 +104,13 @@ Programas de fidelidade
 
 Melhoria da experiência de compra
 
-🛍️ Perfil médio (cluster 2)
+🛍️ Perfil médio 
 
 Ofertas sazonais
 
 Brindes e sorteios para estimular o consumo
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 📅 Conclusão
 A aplicação do K-Means permitiu segmentar eficientemente os clientes, revelando perfis distintos e oportunidades claras de ações direcionadas.
-
-🎓 Projeto desenvolvido para consolidação dos conhecimentos em modelagem avançada.
